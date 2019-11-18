@@ -5,7 +5,7 @@
     <meta charset="utf-8">
    
     <title>Achille Bavoua</title>
-    <!-- Compiled and minified CSS -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
    
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -27,7 +27,7 @@
                     </li>
 
                     <li>
-                        <a href="#myapps">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="#contact">Contacts</a>
@@ -53,7 +53,7 @@
                 <p class="">
                     <a href="https://www.harvard.edu/about-harvard/social-media-and-newsletter-direc">Social media</a> |
                     <a href="https://alumni.harvard.edu/community/clubs-sigs/sigs-directory">Interest</a> | 
-                    <a href="https://college.harvard.edu/academics/research">Reserch</a>
+                    <a href="https://college.harvard.edu/academics/research">Research</a>
                 </p>
 
             </div>
@@ -70,15 +70,14 @@
     <br/>
 
     <br/>
+    <br/>
+
+    <br/>
 
 
 
 
-
-
-
-
-    <h3 id="myapps">My Work</h3>
+    <h3 id="portfolio">My Work</h3>
     
 
 
@@ -91,15 +90,26 @@
                 <a href="https://bavouasoft.github.io/unit-4-game/">
                     <img src="assets/images/crystal.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify"> 
+                    Here's how the app works:
+                    There will be four crystals displayed as buttons on the page.
+                    The player will be shown a random number at the start of the game.
+                    When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+                    The game hide this amount until the player clicks a crystal.
+                    When they do click one, we update the player's score counter.
+                    The player wins if their total score matches the random number from the beginning of the game.
+                    The player loses if their score goes above the random number.
+                    The game restarts whenever the player wins or loses.
+                    When the game begins again, the player always see a new random number and  all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
                 </p>
             </div>
             <div class="col s12 m12 l6">
                 <h4>Train-Scheduler</h4>
                 <a href="https://bavouasoft.github.io/Train-Scheduler/">
-                    <img src="assets/images/train.jpg" class="full-width" />
+                    <img src="assets/images/train2.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify">
+                    This application incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
                 </p>
             </div>
         </div>
@@ -110,7 +120,10 @@
                 <a href="https://bavouasoft.github.io/Word-Guess-Game/">
                     <img src="assets/images/guess.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify">
+                    This app randomly picks a letter, and the user has to guess which letter the app chose. 
+                    When the player wins, we increase the Wins counter and start the game over again (without refreshing the page).
+                    When the player loses, we increase the Losses counter and restart the game without a page refresh (just like when the user wins).
                 </p>
             </div>
 
@@ -120,7 +133,11 @@
                 <a href="https://bavouasoft.github.io/GifTastic/">
                     <img src="assets/images/gif.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify">
+                    When the user clicks on a button, the page grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
+                    When the user clicks one of the still GIPHY images, the gif animate. If the user clicks the gif again, it stop playing.
+                    Under every gif, we display its rating (PG, G, so on).
+                    This data is provided by the GIPHY API.
                 </p>
             </div>
 
@@ -132,18 +149,23 @@
                 <a href="https://bavouasoft.github.io/TriviaGame/">
                     <img src="assets/images/trivia.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify">
+                    The game that shows only one question until the player answers it or their time runs out.
+                    If the player selects the correct answer, we show a screen congratulating them for choosing the right option. After a few seconds, we display the next question --  without user input.
+                    Create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Layout  with valid HTML and stylish CSS.
+                </p>
             </div>
 
 
 
 
             <div class="col s12 m12 l6">
-                <h4>Should I Go or Should I stay ?</h4>
+                <h4>  Should I stay or Should I Go?</h4>
                 <a href="https://github.com/kayhern/Project-1-Team4">
                     <img src="assets/images/should.jpg" class="full-width" />
                 </a>
-                <p>Full Stack Web Developer with a medical physics background, focusing on building easy to use  apps.
+                <p style="text-align:justify">
+                    This app is designed to help the user make a choice between going out and staying home. If he choses to go out, the app provides a list of lestaurants with details. If the user want to stay at home, the app provides a list of ingredients for him to cook at home. Coices are determined based on the user choice of food types.
                 </p>
             </div>
         </div>
@@ -213,7 +235,7 @@
 
     <br/>
 
-<p class="cpright">
+    <p class="cpright">
         Copyright ©
     </p>
     <div class="contact-me" id="contact">
