@@ -5,15 +5,16 @@ nav {
 }
 
 h1 {
-    color: rgba(54, 53, 53, 0.815);
+    color:white;
     font-weight: normal;
     margin-top: 0;
     font-size: 25px;
 }
 
 h2 {
+    color:white;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
   }
   
@@ -51,9 +52,11 @@ h2 {
     font-size: 9px;
 }
 .aboutContainer {
-    background: url("http://office2.jpg") no-repeat center center;    
+    background:#ffffff url('../office2.jpg') no-repeat center center;    
     background-size: cover;
-
+    height: 600px;
+    margin: 0;
+    margin-top: -30px;
 }
 /*   .aboutContainer {
     background: url(office2.jpg) no-repeat center center;
@@ -61,7 +64,18 @@ h2 {
     height: 600px;
     margin: 0;
     margin-top: -30px;
+
+
+    background:blue url('/images/clouds.jpg') no-repeat scroll left center;
 } */
+
+
+#separatepage {
+    padding: 40px;
+    margin-top: -20px;
+    color: white;
+    background-color: rgb(8, 104, 168);
+  }
 
 
 
@@ -75,7 +89,7 @@ h2 {
 
 a {
      text-decoration: none;
-     color: rgba(54, 53, 53, 0.815);
+     color: white;
      font-size: 16px;
   }
     
@@ -89,10 +103,6 @@ a:hover {
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-    #bio p {
-        font-size: 30px;
-    }
-
     h3 {
         font-size: 36px;
     }
@@ -130,6 +140,14 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
+
+.detailme {
+    color: white;
+    font-weight: lite;
+    margin-top: 0;
+    text-shadow: 10px 10px 10px black;
+  }
+
 /*
 
 
