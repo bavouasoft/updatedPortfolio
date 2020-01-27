@@ -1,62 +1,58 @@
-
-
 nav {
-    background-color: rgb(8, 104, 168);
+  background-color: rgb(8, 104, 168);
 }
 
 h1 {
-    color:white;
-    font-weight: normal;
-    margin-top: 0;
-    font-size: 25px;
+  color: white;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 25px;
 }
 
 h2 {
-    color:white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: normal;
-  }
-  
-  
-  p {
-    font-size: 16px;
-    text-align: center;
-  }
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
 
+p {
+  font-size: 16px;
+  text-align: center;
+}
 
-  .contact-me {
-    height: 250px;
-    background-color: rgb(8, 104, 168);
-    padding-top: 30px;
+.contact-me {
+  height: 250px;
+  background-color: rgb(8, 104, 168);
+  padding-top: 30px;
 }
 
 .contact-headline {
-    color: white;
+  color: white;
 }
 
 .contact-info {
-    color: white;
-    font-size: 12px;
-    margin-top: 30px;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
 }
 
 .contact-link {
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
 }
 .cpright {
-    color: rgba(10, 6, 10, 0.911);
-    font-weight: bold;
-    font-size: 9px;
+  color: rgba(10, 6, 10, 0.911);
+  font-weight: bold;
+  font-size: 9px;
 }
 .aboutContainer {
-    background:#ffffff url('../office2.jpg') no-repeat center center;    
-    background-size: cover;
-    height: 600px;
-    margin: 0;
-    margin-top: -30px;
+  background: #ffffff url("../office2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+  margin-top: -30px;
 }
 /*   .aboutContainer {
     background: url(office2.jpg) no-repeat center center;
@@ -69,85 +65,102 @@ h2 {
     background:blue url('/images/clouds.jpg') no-repeat scroll left center;
 } */
 
-
-#separatepage {
-    padding: 40px;
-    margin-top: -20px;
-    color: white;
-    background-color: rgb(8, 104, 168);
-  }
-
-
-
+#page2 {
+  padding: 40px;
+  margin-top: -20px;
+  color: white;
+  background-color: rgb(8, 104, 168);
+}
 
 .achpic {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    border: 4px solid rgb(172, 166, 166);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 2px solid rgb(172, 166, 166);
+}
+
+.FantasyFootball,
+.crystal,
+.train2,
+.guess,
+.gif,
+.trivia,
+.should {
+  height: 250px;
+  width: 459px;
+  max-width: 600px;
+  /* border-radius: 100px; */
+  border: 2px solid rgb(172, 166, 166);
+
+  background-color: powderblue;
 }
 
 a {
-     text-decoration: none;
-     color: white;
-     font-size: 16px;
-  }
-    
-a:hover {
-        font-weight: bold;
-    }
-
-
-
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-    h3 {
-        font-size: 36px;
-    }
-
-    p {
-        font-size: 24px;
-    }
-
-    nav {
-        height: 100px;
-    }
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  h3 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  nav {
+    height: 100px;
+  }
+}
 
 footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
 
 .portfolio {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
 
 .detailme {
-    color: white;
+  color: white;
+  font-weight: lite;
+  margin-top: 0;
+  text-shadow: 10px 10px 10px black;
+}
+.brand-logo {
+  left: 0.2%;
+  float: left;
+  /* color: white;
     font-weight: lite;
     margin-top: 0;
-    text-shadow: 10px 10px 10px black;
-  }
-
+    text-shadow: 10px 10px 10px black; */
+}
+.right {
+  right: 0.2%;
+  float: right;
+}
 /*
 
 
