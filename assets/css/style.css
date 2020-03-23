@@ -85,6 +85,7 @@ p {
 .guess,
 .gif,
 .trivia,
+.student,
 .should {
   height: 250px;
   width: 459px;
@@ -161,6 +162,7 @@ footer {
   right: 0.2%;
   float: right;
 }
+
 /*
 
 
